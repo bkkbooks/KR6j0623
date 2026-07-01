@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6j0623/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說檀特羅麻油述經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T21/T21n1391.xml
+    old_id: T21n1391
+hash: sha256:833e8cf9dba29c6ef97cbc2ea691b1c3316947822f0d6a177d2375384479de9b

@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6j0623/T/v1
+canonical_location: https://kanripo.org/bkk/KR6j0623/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說檀特羅麻油述經
+  identifiers:
+    krp: KR6j0623
+    cbeta: T21n1391
+    cbeta_old_id: T21n1391
+    authorityid: CA0003216
+    json_key: T1391
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T21/T21n1391.xml
+    old_id: T21n1391
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0623_000-T.yaml, hash: 'sha256:833e8cf9dba29c6ef97cbc2ea691b1c3316947822f0d6a177d2375384479de9b'}
+  - {seq: 1, filename: KR6j0623_001-T.yaml, hash: 'sha256:2cc30907b283680637422cf801db463bafa8765f830a1b9ce6adb5ddfaa985c6'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6j0623_000-T.markers.yaml, hash: 'sha256:42031b82a8fe723e2341e9cc62f8904e157a659dd4436654dae3cd838abc8c48'}
+  - {seq: 1, role: markers, filename: assets/KR6j0623_001-T.markers.yaml, hash: 'sha256:1bb5b1f7d05600c490cffc608f3bedc83fb21afc757a381032a750639e4e6389'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6j0623_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 453
+  label: 佛說檀特羅麻油述經
+  type: juan
+  level: 1
+hash: sha256:2f710ea8918d6f531513b311c71d3253166bc59a1a19226a1a9e16e8d3b62a71

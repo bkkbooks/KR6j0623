@@ -1,0 +1,48 @@
+canonical_identifier: bkk:krp/KR6j0623/v1
+canonical_location: https://kanripo.org/bkk/KR6j0623/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 佛說檀特羅麻油述經
+  identifiers:
+    alt_id:
+    - T21n1391
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T21/T21n1391.xml
+    old_id: T21n1391
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 明
+  label: 明
+  source_xml_id: wit3
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0623_000.yaml, hash: 'sha256:833e8cf9dba29c6ef97cbc2ea691b1c3316947822f0d6a177d2375384479de9b'}
+  - {seq: 1, filename: KR6j0623_001.yaml, hash: 'sha256:9a5803c9e88e7eef649bd3f44ef0577499dd03a31005b3fe3fd055c97d983dbf'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6j0623_001.markers.yaml, hash: 'sha256:b8900b85f6f5b5bad8c7324b950b9b5117cd17c25f943007abb444765c5f1231'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6j0623_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 453
+  label: 佛說檀特羅麻油述經
+  type: juan
+  level: 1
+hash: sha256:707f158dba55426b1e6e83cdf5a420305ff88c7821173f40af45921e77379d5e
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
