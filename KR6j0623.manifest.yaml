@@ -28,9 +28,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6j0623_000.yaml, hash: 'sha256:833e8cf9dba29c6ef97cbc2ea691b1c3316947822f0d6a177d2375384479de9b'}
-  - {seq: 1, filename: KR6j0623_001.yaml, hash: 'sha256:9a5803c9e88e7eef649bd3f44ef0577499dd03a31005b3fe3fd055c97d983dbf'}
+  - {seq: 1, filename: KR6j0623_001.yaml, hash: 'sha256:2cc30907b283680637422cf801db463bafa8765f830a1b9ce6adb5ddfaa985c6'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6j0623_001.markers.yaml, hash: 'sha256:b8900b85f6f5b5bad8c7324b950b9b5117cd17c25f943007abb444765c5f1231'}
+  - {seq: 0, role: markers, filename: assets/KR6j0623_000.markers.yaml, hash: 'sha256:00a424b7e4f600d749a57aef2ecb6c9652a95c28fdc471ee17c0ba7da8b5d5b3'}
+  - {seq: 1, role: markers, filename: assets/KR6j0623_001.markers.yaml, hash: 'sha256:0409a60e7b1777659457bb6e1326aab76abd97bdb9c137f56acab3775f578cf3'}
 table_of_contents:
 - ref:
     seq: 1
@@ -42,7 +43,4 @@ table_of_contents:
   label: 佛說檀特羅麻油述經
   type: juan
   level: 1
-hash: sha256:707f158dba55426b1e6e83cdf5a420305ff88c7821173f40af45921e77379d5e
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:dfea38a054cf55e499476e04ebc7918b18bfbc94a1fdc8b031f8e9100fff350e
