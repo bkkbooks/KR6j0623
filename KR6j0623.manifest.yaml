@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6j0623/v1
 canonical_location: https://kanripo.org/bkk/KR6j0623/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 佛說檀特羅麻油述經
   identifiers:
@@ -28,10 +28,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6j0623_000.yaml, hash: 'sha256:833e8cf9dba29c6ef97cbc2ea691b1c3316947822f0d6a177d2375384479de9b'}
-  - {seq: 1, filename: KR6j0623_001.yaml, hash: 'sha256:2cc30907b283680637422cf801db463bafa8765f830a1b9ce6adb5ddfaa985c6'}
+  - {seq: 1, filename: KR6j0623_001.yaml, hash: 'sha256:9bf78992aa66d3445279408a437898ee3fcebca4206089ab0483061714a2aa4e'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6j0623_000.markers.yaml, hash: 'sha256:00a424b7e4f600d749a57aef2ecb6c9652a95c28fdc471ee17c0ba7da8b5d5b3'}
-  - {seq: 1, role: markers, filename: assets/KR6j0623_001.markers.yaml, hash: 'sha256:0409a60e7b1777659457bb6e1326aab76abd97bdb9c137f56acab3775f578cf3'}
+  - {seq: 1, role: markers, filename: assets/KR6j0623_001.markers.yaml, hash: 'sha256:be2bd49142b159a5ec6777c7cae2286997a2ed3c15246c81ba5ade78de68be42'}
 table_of_contents:
 - ref:
     seq: 1
@@ -43,4 +43,7 @@ table_of_contents:
   label: 佛說檀特羅麻油述經
   type: juan
   level: 1
-hash: sha256:dfea38a054cf55e499476e04ebc7918b18bfbc94a1fdc8b031f8e9100fff350e
+hash: sha256:3f86df5fb603e5f98e78c18cc73aeb77e5a52846a95e97f128f264afd010b982
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
